@@ -1,0 +1,33 @@
+body {
+    background-color: gray;
+}
+
+ h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+}
+
+.centered {
+    text-align: center;
+}
+
+#title {
+    font-style: italic;
+}
