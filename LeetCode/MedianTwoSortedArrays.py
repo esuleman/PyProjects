@@ -17,6 +17,7 @@ class Solution:
             i = int(i)
             return nums[i]
 
+        # j = len(nums) - 1
         # for i in range(0, len(nums)):
         #     if i == j:
         #         return nums[i]
@@ -28,5 +29,5 @@ class Solution:
 
 test = Solution()
 nums1 = [1, 2]
-nums2 = [3, 4, 5, 6, 7, 8, 9, 10]
+nums2 = [3, 4]
 print(test.findMedianSortedArrays(nums1, nums2))
